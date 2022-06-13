@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* background-color: rgb(101, 149, 195); */
+    /* background-color: black; */
+  
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.heading{
+    /* margin: auto; */
+    width: 50em;
+    text-align: center;
+  
+}
+.welcome{
+    color: rgba(15,26,38,255);
+    font-size: 5em;
+    margin: 0em 10em 2em 0em;
+}
+/* .app-name{
+    float: right;
+} */
+span{
+    font-size: 2em;
+    font-weight:400;
+}
+.blocks{
+   margin:10em 0;
+    width: 40em;
+    /* height: 25vh; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  grid-gap: 1.5em;
+  /* padding: 2em; */
+
+}
+.blocks>div{
+    padding: 2em;
+    font-size: 2em;
+   border-radius: 0.5em;
+}
+.share{
+    background-color: rgba(48,144,242,255);
+    box-shadow: 0 0.3em 2em 0.4em rgb(105, 62, 62);
+   
+}
+.blocks>div:hover{
+    padding: 0.5em;
+    font-size: 4em;
+    
+}
+.your{
+    background-color: rgba(255,222,89,255);
+    box-shadow: 0 0.3em 2em 0.4em rgb(105, 62, 62);
+}
+.story{
+    background-color: rgba(254,91,184,255);
+    box-shadow: 0 0.3em 2em 0.4em rgb(105, 62, 62);
+}
+
+/*  */
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    
+}
+/* .navbar-content, a, .navbar{
+    background-color: black;
+} */
+.navbar-content {
+    display: flex;
+justify-content: flex-end;
+width: 20%;
+
+}
+.instaclone-logo{
+    margin: 1em;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+li{
+    margin: 1em;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+nav ul {
+     list-style-type: none;
+ }
+ .navbar-ul{
+     display: flex;
+     justify-content: flex-end;
+
+ }

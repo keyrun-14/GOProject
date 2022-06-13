@@ -1,0 +1,56 @@
+.Login{
+    /* background-color: rgba(193,189,186,255); */
+    width: 100%;
+    height: 100vh;
+    border: 1px solid;
+    /* background-color: rgba(26,176,136,255); */
+}
+.login-input-fields {
+    border: none;
+    border-bottom: 1px solid red;
+    height: 2em;
+    width: 20em;
+    color: rgb(14, 14, 14);
+    /* background-color: rgba(35,50,61,255); */
+}
+
+label,h1{
+    color: rgb(5, 5, 5);
+}
+h1{
+    font-weight: 600;
+    text-align: center;
+  
+}
+/* .Login-form,.Login-form>*{
+    background-color: rgba(35,50,61,255);
+} */
+.form-container{
+    width:40em;
+    height: 30em;
+    margin: 10em auto;
+    padding: 1em;
+    text-align: end;
+    /* background-color: rgba(35,50,61,255); */
+    border-radius: 0.5em;
+}
+.Login-form{
+    width:25em;
+    margin: auto;
+  
+}
+
+button{
+    background-color: rgba(26,176,136,255);
+    border: none;
+    width: 15em;
+    height: 3em;
+    text-align: center;
+ }
+.Login-form>*{
+    margin-top: 3em;
+}
+.button-div{
+    width: 20em;
+    /* margin-top: 20%; */
+}
